@@ -1,59 +1,90 @@
-header, footer {
-  min-width: 500px;
-  padding: 10px;
+body {
+  font-family: sans-serif;
+  font-size: 13px;
 }
-main {
-  display: grid;
-  margin-top: 150px;
-  margin-bottom: 200px;
-}
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-}
+
 li {
-  display: inline;
-  font-family: Poppins;
+ font-family: sans serif;
+ display: inline;
+ list-stye: none;
 }
-li a{
-  color: black;
-  text-align: center;
-  padding: 15px;
-}
-li b{
-  color: black;
-  text-align: center;
-  padding: 15px;
-}
-.logo {
-  width: 300px;
-  justify-self: Center;
-}
-.search-buttons {
-  display: grid;
-  justify-self: center;
-  grid-template-columns: 50% 50%;
-  grid-gap: 50px;
-}
-.box {
-  background-color: lightgray;
-  font-family: Poppins;
-  width: 170px;
-  height: 35px;
-  margin-top: 60px;
-  text-align: center;
-  padding-top: 10px;
-}
-.searchbar {
-  margin-top: 25px;
-  background-color: white;
-  box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.5);
-  justify-self: center;
-  width: 700px;
+.nav {
   height: 50px;
+  margin-top: 30px;
+ }
+
+.navcontainer {
+  height: 45px;
+  margin: 10px auto;
+  display: grid;
 }
-footer {
-  align-content: end;
+
+#leftlist { 
+  position: absolute;
+  padding: 7px 0px 0px 10px;
+  font-size: 13px;
+}
+#leftlist a{
+  display: inline-block;
+  align-self: center;
+  font-family: arial, sans-serif;
+  padding-left: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.rightlist-cont {
+  min-wdith: 242px;
+}
+
+#rightlist {
+  float: right;
+  padding: 7px 0px 0px 10px;
+}
+
+#rightlist a{
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.main{
+  height: 500px;
+}
+
+.logo {
+  width: 272px;
+  margin: 0 auto;
+  padding-top: 180px;
+}
+
+.logo img{
+  width: 272px;
+  height: 92px;
+}
+
+.search {
+  margin: 0px auto;
+  width: 1139px;
+  height: 130px;
+  margin-top: 32px;
+}
+
+#text {
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.45);
+  width: 584px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 5px 0px;
+}
+
+#text input {
+  width: 559px;
+  height: 34px;
+  font: 16px arial, sans-serif;
+  position: center;
+  margin: 0 auto;
+  border: none;
+  padding: 5px 0px 5px 15px; 
 }
