@@ -3,6 +3,7 @@
 body {
   font-family: sans-serif;
   font-size: 13px;
+
 }
 
 li {
@@ -66,8 +67,7 @@ li {
 }
 
 .search {
-  margin: 0px auto;
-  width: 1139px;
+  margin: 0 auto;
   height: 130px;
   margin-top: 32px;
 }
